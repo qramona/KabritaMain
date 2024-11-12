@@ -1,6 +1,3 @@
-let mode = 'offBtn1'
-const kabritaOffline = document.getElementById('kabrita__offline')
-const kabritaOnline = document.getElementById('kabrita__online')
 const onBtn1 = document.getElementById('offline-on')
 const offBtn1 = document.getElementById('offline-off')
 const onBtn2 = document.getElementById('online-on')
