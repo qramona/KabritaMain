@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;300&display=swap');
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style-main.css">
+  <script src="buyscripts.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="header__nav">
+        <a class="logo" href="main-page.html"><img src="assets/Logo.svg" width="204" height="204" alt=""></a>
+        <nav class="header__navigation">
+          <div class="header__items header-burger">
+            <nav class="items-nav">
+              <div class="header__burger-icons" id="header-icons">
+                <img class="burger-menu" id="burger-menu" src="assets/BurgerIcon.png" alt="">
+                <img class="close-logo" id="close-logo" src="assets/CloseLogo.png" alt="">
+                <div class="header__menu-items" id="menu-items">
+                  <ul class="menu__list-burger" id="list-burger">
+                    <li class="menu__list-item">
+                      <a href="main-page.html" class="menu__link menu__link--active">Продукты</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">Почему Кабрита</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">Козье молоко</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">О нас</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">Мамам</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">Врачам</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a href="#" class="menu__link menu__link--active">Купить</a>
+                    </li>
+                  </ul>
+                  <div class="background__list-item"></div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <p class="header__address">Вы находитесь в Kabrita Россия</p>
+          <ul class="header__nav-ul">
+            <a href="main-page.html"><li class="header__nav-li">Продукты</li></a>
+            <a href="#"><li class="header__nav-li">Почему Кабрита</li></a>
+            <a href="#"><li class="header__nav-li">Козье молоко</li></a>
+            <a href="#"><li class="header__nav-li">О нас</li></a>
+            <a href="#"><li class="header__nav-li">Мамам</li></a>
+            <a href="#"><li class="header__nav-li">Врачам</li></a>
+            <a href="buy__kabrita.html"><li class="header__nav-li header__nav-buy">Купить</li></a>
+          </ul>
+          <div class="mobile-logo">
+            <img src="assets/second-logo.svg" alt="">
+          </div>
+        </nav>
+        <div class="header__basket">
+          <a href="#"><img src="assets/basket.png" alt=""></a>
+          <span class="circle--active">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="header__first-slide">
+          <div class="container">
+            <div class="row">
+              <div class="slider__wrapper">
+                <p class="header-carousel__p"><a href="#">Главная -</a> Kabrita® интернет-магазин </p>
+                <b class="header-carousel__b">Kabrita®-сеты -15%</b>
+                <p class="header-carousel__p">для мамы и малыша</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="header__second-slide">
+          <div class="container">
+            <div class="row">
+              <div class="slider__wrapper">
+                <p class="header-carousel__p"><a href="#">Главная -</a> – Где купить</p>
+                <b class="header-carousel__b header__second-slide-b">Где купить Kabrita?</b>
+                <p class="header-carousel__p">  Kabrita® – нежное питание на основе полезного
+                  козьего молока – можно приобрести в  удобном
+                  для вас <b class="header__carousel-b">маркетплейсе, супермаркете</b> возле
+                  дома или в нашем <b class="header__carousel-b">интернет-магазине</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="header__third-slide">
+          <div class="container">
+            <div class="row">
+              <div class="slider__wrapper">
+                <b class="header-carousel__b header__second-slide-b">Текст на баннере</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</header>
+<section class="main__to-buy">
+  <div class="container">
+    <div class="row">
+      <div class="main__to-buy--wrapper">
+        <h3 class="to-buy__h3">
+          Покупай, где удобно
+        </h3>
+        <div class="main__online-offline">
+          <div class="kabrita__storage"id="kabrita__offline">
+            <img src="assets/buy-map.svg" alt="" class="storage-img">
+            <b class="kabrita__storage-b">Онлайн/Офлайн</b>
+            <div class="storage__buttons-img">
+              <button type="button" class="offline-btn-on">
+                <img src="assets/btn-on.svg" alt="" id="offline-on">
+              </button>
+              <button type="button" class="offline-btn-off">
+                <img src="assets/btn-off.svg" alt="" id="offline-off">
+              </button>
+            </div>
+          </div>
+
+          <div class="kabrita__storage"id="kabrita__online">
+            <img src="assets/buy-storage.svg" alt="" class="storage-img">
+            <b class="kabrita__storage-b">Kabrita® интернет-магазин</b>
+            <div class="storage__buttons-img">
+              <button type="button" class="offline-btn-on">
+                <img src="assets/btn-on.svg" alt="" id="online-on">
+              </button>
+              <button type="button" class="offline-btn-off">
+                <img src="assets/btn-off.svg" alt="" id="online-off">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="blocks__offline-to-buy blocks-to-buy" id="blocks__offline-to-buy">
+    <div class="block__offline-to-buy">
+      <div class="block__to-buy--title">
+         <p>Онлайн</p>
+      </div>
+      <div class="wrapper__to-buy">
+        <img src="assets/storage1.svg" alt="" class="to-buy-img">
+        <img src="assets/storage2.svg" alt="" class="to-buy-img">
+        <img src="assets/storage3.svg" alt="" class="to-buy-img">
+        <img src="assets/storage4.svg" alt="" class="to-buy-img">
+        <img src="assets/storage5.svg" alt="" class="to-buy-img">
+      </div>
+    </div>
+    <div class="block__offline-to-buy">
+      <div class="block__to-buy--title">
+        <p>Офлайн</p>
+      </div>
+      <div class="wrapper__to-buy">
+        <img src="assets/storage6.svg" alt="" class="to-buy-img">
+        <img src="assets/storage7.svg" alt="" class="to-buy-img">
+        <img src="assets/storage8.svg" alt="" class="to-buy-img">
+        <img src="assets/storage9.svg" alt="" class="to-buy-img">
+        <img src="assets/storage10.svg" alt="" class="to-buy-img">
+      </div>
+    </div>
+    <button type="button" class="storage-btn">
+      <b>Выбрать магазин</b>
+    </button>
+  </div>
+
+
+  <div class="block__online-to-buy block-to-buy" id="blocks__online-to-buy">
+    <div class="block__to-buy--title">
+     <p>Только в интнернет-магазине Kabrita® можно приобрести kabrita-сеты.
+       Kabrita-сет — это удобная и выгодная покупка!
+       А еще Kabrita-сет — отличный подарок для молодой мамы.
+     </p>
+    </div>
+    <div class="blocks__online-to-buy">
+      <div class="block__online-to-buy goods__online-to-buy">
+        <h3>Kabrita-сеты</h3>
+        <img class="block__online-img" src="assets/kabrita__slider1.svg" alt="">
+      </div>
+      <div class="block__online-to-buy goods__online-to-buy2">
+        <h3>Kabrita-боксы</h3>
+        <img class="block__online-img" src="assets/kabrita__slider2.svg" alt="">
+      </div>
+      <div class="block__online-to-buy goods__online-to-buy3">
+        <h3>Kabrita-present</h3>
+        <img class="block__online-img" src="assets/kabrita__slider3.svg" alt="">
+      </div>
+    </div>
+    <a href="main-page.html" class="storage-btn">
+      <b>Перейти в магазин</b>
+    </a>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="buy__form">
+  <div class="container">
+    <div class="row">
+      <div class="kabrita__buy-form-wrapper">
+        <div class="kabrita__buy-form-block1">
+          <div class="buy__form-text">
+            <h3 class="buy-form--h3">
+              Kabrita® - МАМАМ!
+            </h3>
+            <p class="buy-form--p">
+              Подпишись на kabrita-рассылку, чтобы получать актуальную информацию о росте,
+              развитии и питании малыша, а еще первой узнавать о классных розыгрышах
+              и выгодных ценах
+            </p>
+          </div>
+          <form class="buy-forms" action="">
+            <input class="buy-form__input"type="text" placeholder="Ваше имя*" required>
+            <input class="buy-form__input"type="text" placeholder="E-mail*" required>
+            <input class="buy-form__input"type="text" placeholder="Дата рождения ребенка*" required>
+            <input class="buy-form__input"type="text" placeholder="Имя ребенка *" required>
+            <p class="buy-form-p">* Поля обязательные для заполнения</p>
+            <div class="buy-form__checkbox">
+              <input type="checkbox" required>
+              <p class="buy-form-p">Соглашение на обработку персональных данных</p>
+            </div>
+            <button type="submit" class="buy-form__subscribe">
+              <p class="buy-form__subscribe-p">Подписаться</p>
+            </button>
+          </form>
+        </div>
+        <div class="kabrita__buy-form-block2">
+          <img class="kabrita__buy-form-img" src="assets/buy-form-block2.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer__wrapper">
+        <div class="footer__block1">
+          <div class="footer__logo">
+            <div class="footer__logo-img">
+              <img src="assets/footerLogo.svg" alt="">
+            </div>
+            <div class="footer__number-wrapper">
+              <div class="footer__number-img">
+                <img src="assets/footer__call.svg" alt="">
+                <a class="footer__phone1" href="tel:88001005512"><p>8 800 100 55 12</p></a>
+              </div>
+              <div class="footer__number">
+                <p class="footer__schedule"> пн-пт, 10:00–17:00 МСК</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer__menus1 footer__menu">
+            <ul>
+              <li class="footer__menu">Наша продукция</li>
+              <li class="footer__menu">О смеси Кабрита</li>
+              <li class="footer__menu">Козье молоко</li>
+              <li class="footer__menu">Специалистам</li>
+            </ul>
+          </div>
+          <div class="footer__menus1 footer__menu">
+            <ul>
+              <li class="footer__menu">О нас</li>
+              <li class="footer__menu">Вопросы-ответы</li>
+              <li class="footer__menu">Где купить</li>
+            </ul>
+          </div>
+          <div class="footer__menus1 footer__menu">
+            <a href="tel:88001005512">+7 800 100 55 12</a>
+            <p class="footer__schedule">
+              пн-пт, 10:00–17:00 МСК
+            </p>
+          </div>
+          <div class="footer__apps-wrapper">
+            <div class="footer__app">
+              <a href="#">
+                <img class="footer__app-img" src="assets/app__inst.svg" alt="">
+              </a>
+            </div>
+            <div class="footer__app">
+              <a href="#">
+                <img class="footer__app-img" src="assets/app__fb.svg" alt="">
+              </a>
+            </div>
+            <div class="footer__app">
+              <a href="#">
+                <img class="footer__app-img" src="assets/app__vk.svg" alt="">
+              </a>
+            </div>
+            <div class="footer__app">
+              <a href="#">
+                <img class="footer__app-img" src="assets/app__youtube.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__block2">
+          <h5 class="recommendation">
+            Kabrita рекомендует:
+          </h5>
+          <div class="recommendation-logos">
+            <a href="#"><img src="assets/rec1.svg" alt="" class="recommendation-logo"></a>
+            <a href="#"><img src="assets/rec2.svg" alt="" class="recommendation-logo"></a>
+            <a href="#"><img src="assets/rec3.svg" alt="" class="recommendation-logo"></a>
+            <a href="#"><img src="assets/rec4.svg" alt="" class="recommendation-logo rec-logo4"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyrights">
+        <p>© 2012—2021. Представительство торговой марки Kabrita в России, странах СНГ, Балтии и Украине</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<!--    owlcarousel-css-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    fancy2.0-->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;300&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style-main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="header__nav">
+            <a class="logo" href="#"><img src="assets/Logo.svg" width="204" height="204" alt=""></a>
+            <nav class="header__navigation">
+                <div class="header__items header-burger">
+                    <nav class="items-nav">
+                        <div class="header__burger-icons" id="header-icons">
+                            <img class="burger-menu" id="burger-menu" src="assets/BurgerIcon.png" alt="">
+                            <img class="close-logo" id="close-logo" src="assets/CloseLogo.png" alt="">
+                            <div class="header__menu-items" id="menu-items">
+                                <ul class="menu__list-burger" id="list-burger">
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">Продукты</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">Почему Кабрита</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">Козье молоко</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">О нас</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">Мамам</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="#" class="menu__link menu__link--active">Врачам</a>
+                                    </li>
+                                    <li class="menu__list-item">
+                                        <a href="buy__kabrita.html" class="menu__link menu__link--active">Купить</a>
+                                    </li>
+                                </ul>
+                                <div class="background__list-item"></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <p class="header__address">Вы находитесь в Kabrita Россия</p>
+                <ul class="header__nav-ul">
+                    <a href="main-page.html"><li class="header__nav-li">Продукты</li></a>
+                    <a href="#"><li class="header__nav-li">Почему Кабрита</li></a>
+                    <a href="#"><li class="header__nav-li">Козье молоко</li></a>
+                    <a href="#"><li class="header__nav-li">О нас</li></a>
+                    <a href="#"><li class="header__nav-li">Мамам</li></a>
+                    <a href="#"><li class="header__nav-li">Врачам</li></a>
+                    <a href="buy__kabrita.html"><li class="header__nav-li header__nav-buy">Купить</li></a>
+                </ul>
+                <div class="mobile-logo">
+                    <img src="assets/second-logo.svg" alt="">
+                </div>
+            </nav>
+                <div class="header__basket" id="header__basket33">
+                    <a href="#"><img src="assets/basket.png" alt=""></a>
+                    <span class="circle--active" id="circleActive">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="header__first-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slider__wrapper">
+                    <p class="header-carousel__p"><a href="#">Главная -</a> Kabrita® интернет-магазин </p>
+                    <b class="header-carousel__b">Kabrita®-сеты -15%</b>
+                    <p class="header-carousel__p">для мамы и малыша</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <div class="header__second-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="slider__wrapper">
+                                <p class="header-carousel__p"><a href="#">Главная -</a> – Где купить</p>
+                        <b class="header-carousel__b header__second-slide-b">Где купить Kabrita?</b>
+                        <p class="header-carousel__p">  Kabrita® – нежное питание на основе полезного
+                            козьего молока – можно приобрести в  удобном
+                            для вас <b class="header__carousel-b">маркетплейсе, супермаркете</b> возле
+                            дома или в нашем <b class="header__carousel-b">интернет-магазине</b>
+                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="carousel-item">
+                <div class="header__third-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slider__wrapper">
+                    <b class="header-carousel__b header__second-slide-b">Текст на баннере</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
+<div class="card">
+        <h1>Card</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+</div>
+
+<section class="kabrita__sliders">
+<div class="kabrita__section-header">
+    <div class="container">
+        <div class="row">
+        <h1 class="header__kabrita">Kabrita® интернет-магазин</h1>
+            <p class="header__kabrita-p"><b class ="header__kabrita-b"> Выбери свой  kabrita-сет.</b>
+             Kabrita-сет — это удобная и выгодная покупка! А еще Kabrita-сет
+            — отличный подарок для молодой мамы.
+        </p>
+    </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row"><div class="kabrita__sections-wrapper">
+        <div class="kabrita__main-section">
+            <div class="kabrita__filtration">
+                <div class="filtration-sets filtration__main" id="filtration-sets">
+                    <h3>Kabrita-сеты</h3>
+                </div>
+                <div class="filtrationff-boxs filtration__main" id="filtration-boxs">
+                    <h3>Kabrita-боксы</h3>
+                </div>
+                <div class="filtration-presents filtration__main" id="filtration-presents">
+                    <h3>Kabrita-present</h3>
+                </div>
+                <div class="filtration__month-wrapper">
+                    <label class="filtration-label"><p>0-6 месяцев</p>
+                    <input type="radio" value="0-6 месяцев" name="filtration-month" class="filtration__radio filtration__radio-active" id="filtration__radio1">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="filtration-label"><p>6-12 месяцев</p>
+                        <input type="radio" value="6-12 месяцев" name="filtration-month" class="filtration__radio filtration__radio-active" id="filtration__radio2">
+                        <span class="checkmark"></span>
+                    </label>
+<!--                    <input type="radio" value="6-12 месяцев" name="filtration-month" class="filtration__radio" id="filtration__radio2">-->
+<!--                        <p>6-12 месяцев</p>-->
+<!--                    </input>-->
+                </div>
+                <div class="filtration__month-wrapper">
+                    <label class="filtration-label"><p>12+ месяцев</p>
+                        <input type="radio" value="12+ месяцев" name="filtration-month" class="filtration__radio filtration__radio-active" id="filtration__radio3">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <div class="kabrita__main-blocks" id="Kabrita__Set">
+             <div class="slider__descriprion">
+                 <h3>Кабрита - сеты</h3>
+                 <p>Выберите kabrita-сет, который отвечает потребностям вашего малыша.
+                     Внимательно изучите состав сета перед покупкой.
+                 </p>
+             </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="kabrita__main-slide">
+                <div class="kabrita__month">
+                    <b class="kabrita__filtration-0 kabrita__filter">0+
+                        <p class="kabrita__month-p">M</p>
+                    </b>
+                </div>
+                <img class="kabrita__slider" src="assets/kabrita__slider1.svg" alt="" loading="lazy">
+                <b class="kabrita__slider-header">
+                    Моя первая еда
+                </b>
+                <p class="kabrita__slider-p">
+                    Смесь Kabrita® 1 Gold 800 г,
+                    2 шт. Каши Kabrita®
+                    для первого прикорма, 6 шт.
+                    Подарок
+                </p>
+                <b class="kabrita__slider-price">
+                    6 900 ₽
+                </b>
+                    <div class="kabrita__slider-basket">
+                        <div class="slider__basket" id="basket1">В корзину </div>
+                        <div class="slider__basket-amount" id="basket-amount1">
+                            <button class="plus-btn" id="plus-btn1" type="button" name="button">
+                                <img class="plus-btn" src="assets/plus.svg" alt="" />
+                            </button>
+                            <label  class="btn-value" id="countLabel1">1</label>
+                            <button class="minus-btn" id="minus-btn1" type="button" name="button">
+                                <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="item">
+
+                <div class="kabrita__main-slide">
+                    <div class="kabrita__month">
+                        <b class="kabrita__filtration-0 kabrita__filter">6+
+                            <p class="kabrita__month-p">M</p>
+                        </b>
+                    </div>
+                    <img class="kabrita__slider" src="assets/kabrita__slider2.svg" alt="" loading="lazy">
+                    <b class="kabrita__slider-header">
+                        Вводим прикорм
+                    </b>
+                    <p class="kabrita__slider-p">
+                        Смесь Kabrita® 2 Gold 800 г,
+                        2 шт. Каши Kabrita®
+                        в ассортименте, 9 шт. Подарок
+                    </p>
+                    <div class="kabrita__slider-price">
+                        <b class="slider__current-price">6 900 ₽</b>
+                        <p class="slider__old-price">6 900 ₽</p>
+                        <div class="slider__sale">
+                            <img  class="sale-img" src="assets/sale.svg" alt="">
+                            <b class="sale-percentage">25%</b>
+                        </div>
+                    </div>
+                    <div class="kabrita__slider-basket">
+                        <div class="slider__basket" id="basket2">В корзину </div>
+                        <div class="slider__basket-amount" id="basket-amount2">
+                            <button class="plus-btn" id="plus-btn2" type="button" name="button">
+                                <img class="plus-btn" src="assets/plus.svg" alt="" />
+                            </button>
+                            <label  class="btn-value" id="countLabel2">1</label>
+                            <button class="minus-btn" id="minus-btn2" type="button" name="button">
+                                <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="item">
+
+                <div class="kabrita__main-slide">
+                    <div class="kabrita__month">
+                        <b class="kabrita__filtration-12 kabrita__filter">12+
+                            <p class="kabrita__month-p">M</p>
+                        </b>
+                    </div>
+                    <img class="kabrita__slider" src="assets/kabrita__slider3.svg" alt="" loading="lazy">
+                    <b class="kabrita__slider-header">
+                        Приятного аппетита!
+                    </b>
+                    <p class="kabrita__slider-p">
+                        Смесь Kabrita® 2 Gold 800 г,
+                        1 шт. Каши Kabrita®
+                        в ассортименте, 9 шт. Подарок
+                    </p>
+                    <div class="kabrita__slider-price">
+                        <b class="slider__current-price">6 900 ₽</b>
+                        <p class="slider__old-price">6 900 ₽</p>
+                        <div class="slider__sale">
+                            <img  class="sale-img" src="assets/sale.svg" alt="">
+                            <b class="sale-percentage">25%</b>
+                        </div>
+                    </div>
+                    <div class="kabrita__slider-basket">
+                        <div class="slider__basket" id="basket3">В корзину </div>
+                        <div class="slider__basket-amount" id="basket-amount3">
+                            <button class="plus-btn" id="plus-btn3" type="button" name="button">
+                                <img class="plus-btn" src="assets/plus.svg" alt="" />
+                            </button>
+                            <label  class="btn-value" id="countLabel3">1</label>
+                            <button class="minus-btn" id="minus-btn3" type="button" name="button">
+                                <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+        </div>
+        <div class="kabrita__main-blocks" id="Kabrita__Box">
+            <div class="slider__descriprion">
+                <h3>Кабрита - боксы</h3>
+                <p>Выберите kabrita-сет, который отвечает потребностям вашего малыша.
+                    Внимательно изучите состав сета перед покупкой.
+                </p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-0 kabrita__filter">0+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider4.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            Сет Kabrita 1 (800 г)
+                        </b>
+                        <p class="kabrita__slider-p">
+                            Смесь Kabrita® 1 Gold 800 г
+                            12 шт. в упаковке
+                        </p>
+                        <div class="kabrita__slider-price">
+                            <b class="slider__current-price">6 900 ₽</b>
+                            <p class="slider__old-price">6 900 ₽</p>
+                            <div class="slider__sale">
+                                <img  class="sale-img" src="assets/sale.svg" alt="">
+                                <b class="sale-percentage">25%</b>
+                            </div>
+                        </div>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket4">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount4">
+                                <button class="plus-btn" id="plus-btn4" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel4">1</label>
+                                <button class="minus-btn" id="minus-btn4" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-6 kabrita__filter">6+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider5.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            Моя первая еда
+                        </b>
+                        <p class="kabrita__slider-p">
+                            Смесь Kabrita® 2 Gold 800 г
+                            12 шт. в упаковке
+                        </p>
+                        <div class="kabrita__slider-price">
+                            <b class="slider__current-price">6 900 ₽</b>
+                            <p class="slider__old-price">6 900 ₽</p>
+                            <div class="slider__sale">
+                                <img  class="sale-img" src="assets/sale.svg" alt="">
+                                <b class="sale-percentage">25%</b>
+                            </div>
+                        </div>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket5">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount5">
+                                <button class="plus-btn" id="plus-btn5" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel5">1</label>
+                                <button class="minus-btn" id="minus-btn5" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-12 kabrita__filter">12+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider6.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            Сет Kabrita 2  (800 г)
+                        </b>
+                        <p class="kabrita__slider-p">
+                            Смесь Kabrita® 3 Gold 800 г
+                            12 шт. в упаковке
+                        </p>
+                        <b class="kabrita__slider-price">
+                            6 900 ₽
+                        </b>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket6">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount6">
+                                <button class="plus-btn" id="plus-btn6" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel6">1</label>
+                                <button class="minus-btn" id="minus-btn6" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kabrita__main-blocks" id="Kabrita__Present">
+            <div class="slider__descriprion">
+                <h3>Кабрита - present</h3>
+                <p>Выберите kabrita-сет, который отвечает потребностям вашего малыша.
+                    Внимательно изучите состав сета перед покупкой.
+                </p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-0 kabrita__filter">0+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider7.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            На выписку из роддома
+                        </b>
+                        <p class="kabrita__slider-p">
+                            В этом боксе с любовью собрано все, что может пригодится молодой маме
+                        </p>
+                        <b class="kabrita__slider-price">
+                            6 900 ₽
+                        </b>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket7">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount7">
+                                <button class="plus-btn" id="plus-btn7" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel7">1</label>
+                                <button class="minus-btn" id="minus-btn7" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-6 kabrita__filter">6+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider8.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            Первый зуб
+                        </b>
+                        <p class="kabrita__slider-p">
+                            Подходящее питание
+                            и must-have средства
+                            в период прорезывания зубов
+                        </p>
+                        <div class="kabrita__slider-price">
+                            <b class="slider__current-price">6 900 ₽</b>
+                            <p class="slider__old-price">6 900 ₽</p>
+                            <div class="slider__sale">
+                                <img  class="sale-img" src="assets/sale.svg" alt="">
+                                <b class="sale-percentage">25%</b>
+                            </div>
+                        </div>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket8">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount8">
+                                <button class="plus-btn" id="plus-btn8" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel8">1</label>
+                                <button class="minus-btn" id="minus-btn8" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="kabrita__main-slide">
+                        <div class="kabrita__month">
+                            <b class="kabrita__filtration-12 kabrita__filter">12+
+                                <p class="kabrita__month-p">M</p>
+                            </b>
+                        </div>
+                        <img class="kabrita__slider" src="assets/kabrita__slider9.svg" alt="" loading="lazy">
+                        <b class="kabrita__slider-header">
+                            С днем рождения!
+                        </b>
+                        <p class="kabrita__slider-p">
+                            Лучшее, что можно подарить на первый праздник малыша
+                        </p>
+                        <b class="kabrita__slider-price">
+                            6 900 ₽
+                        </b>
+                        <div class="kabrita__slider-basket">
+                            <div class="slider__basket" id="basket9">В корзину </div>
+                            <div class="slider__basket-amount" id="basket-amount9">
+                                <button class="plus-btn" id="plus-btn9" type="button" name="button">
+                                    <img class="plus-btn" src="assets/plus.svg" alt="" />
+                                </button>
+                                <label  class="btn-value" id="countLabel9">1</label>
+                                <button class="minus-btn" id="minus-btn9" type="button" name="button">
+                                    <img class="minus-btn"  src="assets/minus.svg" alt="" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<section class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="projects__wrapper">
+            <div class="specprojects">
+                <h3 class="projects__h3">Спецпроекты</h3>
+                       <div class="specprojects__wrapper">
+                           <div class="specprojects__block1">
+                               <h5 class="specprojects__h5">
+                                   Выиграй роды в Лапино
+                               </h5>
+                               <a href="#" class="specprojects__register">
+                                   Простая регистрация
+                               </a>
+                               <a href="#" class="specprojects__more">
+                                   Подробнее
+                               </a>
+                           </div>
+                           <div class="specprojects__block2">
+                               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="specprojects__video">
+                                   <img src="assets/specproject1.svg" alt="#" loading="lazy">
+                               </a>
+                           </div>
+                       </div>
+                    </div>
+
+            <div class="actions">
+                <h3 class="projects__h3">Акции и скидки</h3>
+                           <div class="actions__wrapper">
+                               <div class="actions__block1">
+                                   <h3 class="actions__h3">
+                                       Kabrita®-сеты
+                                   </h3>
+                                   <h5 class="actions__h5">
+                                       Для мамы и малыша
+                                   </h5>
+                               </div>
+                               <div class="actions__block2">
+                                   <img src="assets/15sale.svg" alt="#">
+                               </div>
+                           </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer__wrapper">
+            <div class="footer__block1">
+            <div class="footer__logo">
+                <div class="footer__logo-img">
+                    <img src="assets/footerLogo.svg" alt="">
+                </div>
+                <div class="footer__number-wrapper">
+                    <div class="footer__number-img">
+                        <img src="assets/footer__call.svg" alt="">
+                        <a class="footer__phone1" href="tel:88001005512"><p>8 800 100 55 12</p></a>
+                    </div>
+                    <div class="footer__number">
+                        <p class="footer__schedule"> пн-пт, 10:00–17:00 МСК</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__menus1 footer__menu">
+                <ul>
+                    <li class="footer__menu">Наша продукция</li>
+                    <li class="footer__menu">О смеси Кабрита</li>
+                    <li class="footer__menu">Козье молоко</li>
+                    <li class="footer__menu">Специалистам</li>
+                </ul>
+            </div>
+            <div class="footer__menus1 footer__menu">
+                <ul>
+                    <li class="footer__menu">О нас</li>
+                    <li class="footer__menu">Вопросы-ответы</li>
+                    <li class="footer__menu">Где купить</li>
+                </ul>
+            </div>
+            <div class="footer__menus1 footer__menu">
+                <a href="tel:88001005512">+7 800 100 55 12</a>
+               <p class="footer__schedule">
+                   пн-пт, 10:00–17:00 МСК
+               </p>
+            </div>
+                <div class="footer__apps-wrapper">
+                    <div class="footer__app">
+                        <a href="#">
+                            <img class="footer__app-img" src="assets/app__inst.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__app">
+                        <a href="#">
+                            <img class="footer__app-img" src="assets/app__fb.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__app">
+                        <a href="#">
+                            <img class="footer__app-img" src="assets/app__vk.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__app">
+                        <a href="#">
+                            <img class="footer__app-img" src="assets/app__youtube.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+        </div>
+            <div class="footer__block2">
+                <h5 class="recommendation">
+                    Kabrita рекомендует:
+                </h5>
+                <div class="recommendation-logos">
+                    <a href="#"><img src="assets/rec1.svg" alt="" class="recommendation-logo"></a>
+                    <a href="#"><img src="assets/rec2.svg" alt="" class="recommendation-logo"></a>
+                    <a href="#"><img src="assets/rec3.svg" alt="" class="recommendation-logo"></a>
+                    <a href="#"><img src="assets/rec4.svg" alt="" class="recommendation-logo rec-logo4"></a>
+                </div>
+            </div>
+            </div>
+            <div class="footer__copyrights">
+                <p>© 2012—2021. Представительство торговой марки Kabrita в России, странах СНГ, Балтии и Украине</p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<!--    owlcarousel-css-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    fancy2.0-->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="myscripts.js"></script>
+</body>
+</html>

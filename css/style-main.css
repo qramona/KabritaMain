@@ -1,0 +1,2406 @@
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+    background:#ffffff;
+    cursor:pointer;
+}
+input{
+    border: none;
+    outline: none;
+}
+.header{
+    margin: 0 0 8% 0;
+
+}
+.logo{
+    height: 8.3em;
+}
+.logo>img{
+    margin-top: -4rem;
+    width: 204px;
+
+}
+.mobile-logo{
+    display: none;
+}
+.mobile-logo>img{
+
+}
+.header__basket{
+    display: flex;
+}
+.burger-menu,.close-logo{
+    width: 30px;
+    display: none;
+    cursor: pointer;
+}
+.menu__list-burger{
+    padding: 1.5rem;
+    transition: 0.6s;
+}
+.header__menu-items{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin: 1rem -9%;
+    padding: 2rem;
+    background: aliceblue;
+    align-items: baseline;
+    z-index: 11;
+}
+.menu__list-item{
+    padding: 0.6rem;
+}
+.menu__link{
+    color: #53566e;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+.menu__link:hover{
+    color: #53566e;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+.circle--active{
+    background:#F08AB7;
+    color:#ffff;
+    width: 30px;
+    height: 30px;
+    margin-left: -2rem;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+.carousel-control-prev,.carousel-control-next{
+    display: flex;
+    height: 10px;
+    margin: 9rem 0;
+
+}
+.slider__wrapper{
+
+}
+.header__first-slide{
+    background-image: url("../assets/header__carousel1.svg");
+}
+.header__second-slide{
+    background-image: url("../assets/header__carousel2.svg");
+}
+.header__third-slide{
+    background-image: url("../assets/header__carousel3.svg");
+}
+.header__first-slide,.header__second-slide,.header__third-slide{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 335px;
+    background-size: cover;
+    border-radius: 0 0 30% 30%;
+}
+
+#carouselExampleIndicators{
+    border-radius: 10px;
+}
+.carousel-indicators{
+    margin: -2rem 0;
+}
+.carousel-indicators>li{
+    width: 12px;
+    height: 12px;
+    background: #85C4E8;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.item-family img{
+    width: 100px;
+    height: 100px;
+}
+.sale-img{
+    width: 21px;
+    height: 21px;
+}
+.owl-carousel span {
+    width:25px;
+    height:25px;
+    margin:5px 7px;
+    background: #85C4E8 !important;
+    display:block;
+    -webkit-backface-visibility:visible;
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+.actions__slider1{
+    background-image: url("../assets/specproject2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.header__address{
+    display: flex;
+    justify-content: end;
+    color: #A4A4A4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin: 0;
+    padding: 1rem;
+}
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__nav-ul{
+    display: flex;
+   flex-direction: row;
+    padding: 0;
+}
+.header__nav-li{
+    display: flex;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #002169;
+
+}
+.carousel-control-prev,.carousel-control-next{
+    margin: 14rem 0;
+    padding: 1rem;
+
+}
+.header__nav-li:hover{
+    transition: 0.6s;
+    opacity: 0.6;
+}
+.header-carousel__p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #002169;
+    width: 40%;
+    line-height: 25px;
+}
+.header-carousel__p a{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #C4C4C4;
+}
+
+.header-carousel__b{
+    font-family: 'Comfortaa';
+    font-size: 48px;
+    font-weight: 700;
+    color: #F08AB7;
+}
+.header__second-slide-b{
+    color: #002169;
+}
+.kabrita__section-header{
+    margin: 0;
+}
+.header__kabrita{
+    font-family: 'Comfortaa';
+    font-size: 46px;
+    color: #002169;
+}
+.header__kabrita-wrapper{
+
+}
+.header__kabrita-b,.header__kabrita-p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #002169;
+
+}
+
+.filtration__main{
+    display: flex;
+    justify-content: center;
+    border: #85C4E8 solid 0.5px;
+    border-radius: 100px;
+    margin: 1rem 1em;
+}
+.filtration__main:hover{
+   background: #D0E6F8;
+    opacity: 1;
+    transition: 0.8s;
+}
+.filtration__main h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 0.5rem;
+    font-weight: 400;
+    color: #002169;
+}
+
+.filtration__month-wrapper{
+    width: 100%;
+   text-align: center;
+    flex-direction: row;
+    display: none;
+}
+.filtration-label{
+    position: relative;
+    width: 50%;
+    margin: 0.4em 0;
+}
+.filtration-label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: solid 2px #85C4E8;
+    border-radius: 100px;
+}
+
+.bottle img{
+
+}
+.filtration-label input:checked ~.checkmark{
+    background-color: #85C4E8;
+    padding: 0.4rem;
+    background-image: url("../assets/bottle.svg");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+
+.slider__descriprion{
+    margin: 0 0 1em 0;
+}
+.slider__descriprion h3{
+    font-family: 'Comfortaa';
+    color: #002169;
+    font-size: 30px;
+}
+.slider__descriprion p{
+    color: #002169;
+    font-size: 12px;
+}
+.kabrita__main-slide{
+    margin: 1em;
+}
+.kabrita__month{
+    display: flex;
+    justify-content: end;
+    padding: 0 1em;
+}
+.kabrita__filter{
+    display: flex;
+    border: solid 1px #005CA9;
+    color: #005CA9;
+    font-family: 'Roboto';
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 0 0.4em;
+    font-weight: 300;
+}
+.kabrita__filter:hover{
+   background: #D0E6F8;
+    opacity: 0.8;
+    transition: 1s;
+}
+.kabrita__month-p{
+    font-size: 10px;
+    margin: 0;
+}
+.kabrita__slider:hover{
+transform: scale(1.1);
+    transition: 1s;
+}
+.kabrita__slider-header{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #002169;
+}
+.kabrita__slider-p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 200;
+    color: #696969;
+    width: 80%;
+    height: 7em;
+}
+.kabrita__slider-price{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #002169;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+.kabrita__current-price{
+
+}
+.slider__old-price{
+    text-decoration-line: line-through;
+    text-decoration-color: #F08AB7;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0;
+}
+.slider__sale{
+    display: flex;
+}
+
+.sale-percentage{
+    font-size: 16px;
+    color: #F08AB7;
+}
+
+.slider__basket{
+    display: flex;
+    justify-content: center;
+    width: -webkit-fill-available;
+    padding: 0.5em;
+    background: #D0E6F8;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 30px 5%;
+}
+.slider__basket:hover{
+    border: solid #005CA9 1px;
+    opacity: 0.8;
+    transition: 1s;
+}
+.slider__basket-amount{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 0;
+    flex-direction: row-reverse;
+    display: none;
+}
+
+.slider__basket-amount input{
+    display: flex;
+    text-align: center;
+    color: #002169;
+    width: 60%;
+}
+.btn-value{
+    display: flex;
+    align-items: center;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0;
+}
+.projects__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.specprojects,.actions{
+    width: 100%;
+
+}
+.specprojects__wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.specprojects__block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.specprojects__wrapper,.actions__wrapper{
+    display: flex;
+    justify-content: center;
+    border: solid 1px #85C4E8;
+    border-radius: 15px;
+    padding: 3em;
+}
+.projects__h3{
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #002169;
+    margin: 1em;
+}
+.projects__header{
+    font-family: 'Comfortaa';
+    color: #002169;
+    font-size: 36px;
+}
+
+.specproject__block1{
+
+}
+.specproject__block1 b{
+
+}
+.specproject__block1 a{
+
+}
+.specprojects__register{
+    font-family: 'Open Sans';
+    color: #002169;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 0.5em 0;
+    text-decoration: underline;
+    text-wrap: nowrap;
+
+}
+.specprojects__register:hover{
+    color: #002169;
+}
+.specprojects__more,.specprojects__more:hover{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #002169;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 0.5em 0;
+    padding: 0.5em 2em;
+    width: 100%;
+    text-align: center;
+
+}
+
+.specprojects__h5{
+    font-family: 'Comfortaa';
+    color: #002169;
+    font-size: 24px;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.actions__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url("../assets/specproject2.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.actions__h3{
+    font-family: 'Comfortaa';
+    color: #F08AB7;
+    font-size: 33px;
+
+}
+.actions__h5{
+    font-family: 'Open Sans';
+    color: #002169;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    border: solid #D0E6F8 1px;
+    border-radius: 15px;
+}
+.footer__block1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer__logo{
+width: 20%;
+}
+
+.footer__menu{
+    display: none;
+    font-family: 'Open Sans';
+    color: #002169;
+    font-size: 16px;
+}
+.footer__menus1 a,.footer__menus1 p{
+    font-family: 'Open Sans';
+    color: #002169;
+    font-size: 16px;
+}
+
+.footer__block2{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 16px;
+}
+.recommendation-logos{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer__copyrights p{
+    padding: 1em 0;
+}
+/*buy__kabrita */
+.main__to-buy{
+
+}
+.main__to-buy--wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.to-buy__h3{
+    display: flex;
+    justify-content: left;
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #002169;
+}
+.main__online-offline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 0;
+}
+.kabrita__storage{
+    background: #EDF7FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 0.5em 0;
+}
+.storage-img{
+
+}
+.kabrita__storage-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.storage__buttons-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.offline-btn-on,.online-btn-on{
+    background: transparent;
+}
+/*.offline-btn-on,.online-btn-on,*/#offline-on,#online-on{
+    background: transparent;
+    display: none;
+}
+.offline-btn-off{
+background: transparent;
+}
+.kabrita__storage{
+
+}
+.blocks__offline-to-buy{
+    display: none;
+    flex-direction: column;
+    border: solid #85C4E8 1px;
+    border-radius: 15px;
+
+}
+.block__online-to-buy{
+
+}
+.blocks-to-buy{
+    padding: 3em 4em;
+}
+.block__offline-to-buy{
+
+}
+.block__to-buy--title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #002169;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+.wrapper__to-buy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1em 0;
+}
+.to-buy-img{
+
+}
+.to-buy-img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.storage-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.storage-btn b {
+    color: #002169;
+    font-size: 16px;
+    border: solid #85C4E8 1px;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+}
+.kabrita__storage-b{
+    font-family: 'Comfortaa';
+    color: #002169;
+}
+.storage-btn b:hover{
+    color: #ffffff;
+    background: #D1E7F9;
+    transition: 1s;
+}
+.block__online-to-buy{
+
+}
+.block__online-to-buy h3{
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    text-align: center;
+    color: #002169;
+}
+
+.blocks__online-to-buy{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.block-to-buy{
+    flex-direction: column;
+    padding: 3em 2em;
+    border: solid #85C4E8 1px;
+    border-radius: 15px;
+    display: none;
+}
+.block__online-img{
+
+}
+.block__online-img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.buy__form{
+
+}
+.kabrita__buy-form-wrapper{
+    display: flex;
+    background: #D0E6F8;
+    border-radius: 15px;
+    padding: 0 4em;
+    margin: 4em 0;
+    width: 100%;
+}
+.kabrita__buy-form-block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.buy__form-text{
+
+}
+.buy-form--h3{
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #002169;
+}
+.buy-form--p{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #002169;
+}
+.buy-form-p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #002169;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.buy-forms{
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+
+}
+.buy-form__input{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: #002169;
+    font-family: 'Comfortaa';
+}
+.buy-form__p{
+
+}
+.buy-form__checkbox{
+    display: flex;
+}
+.buy-form__subscribe{
+    border-radius: 30px;
+    background: #85C4E8;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    width: 50%;
+}
+.buy-form__subscribe-p{
+    margin: 0;
+    padding: 0.5em;
+}
+.kabrita__buy-form-block2{
+
+}
+.kabrita__buy-form-img{
+
+}
+.kabrita__main-blocks{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    position: fixed;
+    top: 0;
+    left: 80%;
+    width: 500px;
+    height: 100%;
+    background: #dadada;
+    border-left: solid 1px #560bad;
+    transition: 0.5s;
+    z-index: 10;
+    overflow-y: scroll;
+    display: none;
+}
+.active .card{
+    left: calc(100% - 20%)
+}
+@media screen and (min-width: 1600px) {
+
+    .header__first-slide, .header__second-slide, .header__third-slide {
+        border-radius: 0 0 23% 23%;
+    }
+
+    .slider__wrapper {
+        margin: 6% 0 0 0;
+    }
+
+    .header-carousel__p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .header__kabrita-b, .header__kabrita-p {
+        font-size: 20px;
+    }
+
+    .filtration__month-wrapper {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 16px;
+        color: #002169;
+    }
+
+    .kabrita__sections-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: end;
+    }
+
+    .kabrita__main-section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: normal;
+        justify-content: space-between;
+
+    }
+
+    .kabrita__main-blocks {
+        width: 75%;
+        flex-direction: column;
+    }
+
+    .kabrita__filtration {
+        width: 20%;
+    }
+
+    .filtration-label {
+        width: 100%;
+    }
+
+    .kabrita__section-header {
+        margin: 2em 0;
+    }
+
+    .kabrita__slider {
+        padding: 2em;
+    }
+
+    .slider__descriprion {
+        margin: 3em 0;
+    }
+
+    .slider__descriprion h3 {
+        font-size: 36px;
+    }
+
+    .specprojects__more:hover {
+        background: #D0E6F8;
+        border: #85C4E8 solid 1px;
+        opacity: 0.9;
+        color: #ffffff;
+        transition: 1s;
+    }
+
+    .slider__descriprion p {
+        font-size: 18px;
+    }
+
+    .projects__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .specprojects, .actions {
+        width: 47%;
+    }
+
+    .specprojects__wrapper, .actions__wrapper {
+        height: 320px;
+    }
+
+    .specprojects__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .specprojects__block1, .specprojects__block2 {
+        width: 45%;
+    }
+
+    .specprojects__video > img {
+        display: flex;
+        width: -webkit-fill-available;
+    }
+
+    .actions__block2:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    .footer__wrapper {
+        padding: 3em 2em;
+    }
+
+    .footer__number-wrapper {
+        display: none;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__block2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__apps-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .footer__app {
+        background: #85C4E8;
+        border-radius: 100%;
+        padding: 0.3em;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 0 0.2em;
+    }
+
+    .footer__app:hover {
+        background: #D0E6F8;
+        transition: 1s;
+    }
+
+    .recommendation-logo {
+        padding: 0 2em;
+    }
+
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    .header__nav-li{
+        padding: 0 1rem;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+    border-radius: 0 0 25% 25%;
+    }
+    .slider__wrapper{
+        margin: 6% 0 0 0;
+    }
+    .header-carousel__p{
+        font-size: 16px;
+    }
+
+    .kabrita__section-header{
+    margin: 2em 0;
+    }
+    .kabrita__sections-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: end;
+          }
+    .kabrita__main-section{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .kabrita__filtration{
+    width: 20%;
+    }
+    .filtration-label{
+        width: 100%;
+    }
+    .filtration__month-wrapper{
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 16px;
+        color: #002169;
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+    width: 75%;
+    }
+    .slider__descriprion{
+     margin: 0 0 2em 0;
+    }
+    .slider__descriprion h3{
+    font-size: 36px;
+    }
+    .slider__descriprion p{
+    font-size: 16px;
+    }
+    .kabrita__slider{
+        padding: 2em;
+    }
+    .kabrita__slider-basket{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects__wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .specprojects,.actions{
+        width: 47%;
+    }
+    .specprojects__wrapper,.actions__wrapper{
+        height: 320px;
+    }
+    .specprojects__wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    .specprojects__block1,.specprojects__block2{
+        width: 50%;
+    }
+    .specprojects__video>img{
+        display: flex;
+        width: -webkit-fill-available;
+    }
+    .specprojects__more:hover{
+        background: #D0E6F8;
+        border: #85C4E8;
+        opacity: 0.9;
+        color: #ffffff;
+        transition: 1s;
+    }
+    .specprojects__slider{
+        width: 100%;
+    }
+    .actions__block2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .footer__wrapper{
+        padding: 3em 2em;
+    }
+    .footer__number-wrapper{
+        display: none;
+    }
+
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__menu{
+        display: flex;
+    }
+    .footer__block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__apps-wrapper{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .footer__app{
+        background: #85C4E8;
+        border-radius: 100%;
+        padding: 0.3em;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 0 0.2em;
+    }
+    .footer__app:hover{
+        background: #D0E6F8;
+        transition: 1s;
+    }
+
+    .recommendation-logo{
+        padding: 0 1.5em;
+    }
+    .footer__copyrights p{
+
+    }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .header__first-slide,.header__second-slide,.header__third-slide{
+    border-radius: 0 0 35% 35%;
+    }
+
+    .logo{
+        height: 6.6em;
+    }
+    .logo>img{
+        width: 150px;
+    }
+    .header__address{
+        font-size: 12px;
+    }
+    .header__nav-li{
+        padding: 0 0.9rem;
+        font-size: 13px;
+    }
+
+    .header__basket img{
+        width: 70px;
+
+    }
+    .circle--active{
+        width: 23px;
+        margin-left: -1.8rem;
+    }
+
+    .header-carousel__p{
+        width: 56%;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .kabrita__sliders{
+
+    }
+    .kabrita__section-header{
+        margin: 1em 0;
+    }
+    .header__kabrita-b,.header__kabrita-p{
+        width: 75%;
+        font-size: 18px;
+    }
+
+    .kabrita__main-section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .kabrita__main-blocks{
+    width: 75%;
+    }
+    .slider__descriprion{
+        margin: 0 0 2em 0;
+    }
+    .projects__wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer__logo{
+        width: 17%;
+    }
+
+    .footer__menu{
+    font-size: 14px;
+    }
+    .footer__menus1 a{
+    font-size: 14px;
+    }
+    .footer__menus1 p{
+        font-size: 14px;
+    }
+    .footer__logo-img img{
+        width: 100%;
+    }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .logo>img{
+        width: 130px;
+    }
+    .header__nav-li{
+        padding: 0 0.4rem;
+        font-size: 13px;
+    }
+    .header__basket img{
+        width: 60px;
+    }
+    .circle--active{
+        width: 20px;
+        height: 25px;
+        margin-left: -1.4rem;
+    }
+    .header-carousel__b{
+        font-size: 35px;
+    }
+    .header-carousel__p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        height: 200px;
+        border-radius: 0 0 30% 30%;
+    }
+    .slider__wrapper{
+        margin: 3% 0 0 0;
+
+    }
+    .header__kabrita{
+        font-size: 30px;
+    }
+    .header__kabrita-b,.header__kabrita-p{
+        width: 80%;
+        font-size: 16px;
+    }
+    .kabrita__sections-wrapper{
+        align-items: center;
+    }
+    .kabrita__main-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kabrita__filtration{
+    width: 100%;
+    }
+    .filtration__month-wrapper{
+    flex-direction: row;
+    }
+    .kabrita__main-blocks{
+    width: 100%;
+    }
+    .slider__descriprion p{
+     font-size: 14px;
+    }
+
+    .kabrita__slider{
+        padding: 0;
+    }
+    .kabrita__slider:hover{
+        transform: none;
+    }
+    .kabrita__slider-header{
+    font-size: 16px;
+    }
+    .kabrita__slider-price{
+        font-size: 20px;
+    }
+    .slider__old-price{
+    font-size: 14px;
+    }
+    .sale-percentage{
+    font-size: 14px;
+    }
+    .projects__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .specprojects,.actions{
+        width: 100%;
+    }
+    .specprojects__h5{
+        font-size: 18px;
+    }
+    .specprojects__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding: 1em;
+    }
+    .specprojects__block1{
+        display: flex;
+        flex-direction: column;
+    }
+    .specprojects__more:hover{
+       background: transparent;
+        color: #002169;
+        border: #002169 solid 1px;
+        transition: none;
+    }
+    .specprojects__block2{
+        width: auto;
+    }
+    .specprojects__video{
+        display: flex;
+       justify-content: center;
+    }
+    .specprojects__video>img{
+        width: 80%;
+    }
+
+    .projects__h3{
+        margin: 1em 0;
+    }
+    .actions__block2:hover{
+        transform: none;
+    }
+    .footer__wrapper{
+        border: none;
+        padding: 0;
+    }
+    .footer__block1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__logo{
+    width: 100%;
+    }
+    .footer__logo-img img{
+        width: 25%;
+    }
+    .footer__number-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__number-img{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+    }
+    .footer__phone1 p{
+        font-family: 'Open Sans';
+        font-size: 16px;
+        color: #002169;
+        margin: 0;
+    }
+    .footer__schedule{
+        font-family: "Open Sans";
+        font-size: 14px;
+        color: #002169;
+    }
+
+    .footer__menu{
+    display: none;
+    }
+    .footer__apps-wrapper{
+        display: flex;
+        justify-content: center;
+        border-top: solid #85C4E8 1px  ;
+    }
+    .footer__app{
+        background: #85C4E8;
+        border-radius: 100%;
+        padding: 0.3em;
+        width: 35px;
+        margin: 1.5em;
+    }
+    .footer__app:hover{
+        background: #85C4E8;
+        transition: none;
+    }
+    .recommendation{
+        display: flex;
+        justify-content: center;
+        font-family: 'Comfortaa';
+        font-size: 14px;
+        color: #002169;
+
+    }
+    .recommendation-logos{
+        display: flex;
+        justify-content: center;
+        border-bottom: solid #85C4E8 1px;
+    }
+    .recommendation-logo{
+        margin: 0 2em;
+    }
+    .rec-logo4{
+        display: none;
+    }
+    .footer__copyrights p{
+        font-family: 'Open Sans';
+        font-size: 12px;
+        color: #002169;
+    }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+    font-size: 20px;
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+        font-size: 13px;
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy,.block-to-buy {
+        display: none;
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .to-buy-img {
+
+    }
+    .to-buy-img:hover{
+        transform: none;
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .block__online-img:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .buy-forms{
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    .kabrita__buy-form-wrapper {
+        padding: 3em;
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+    font-size: 25px;
+    }
+
+    .buy-form--p {
+    font-size: 13px;
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+    font-size: 13px;
+    }
+
+    .buy-form-p {
+        font-size: 11px;
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+        display: grid;
+        width: 80%;
+        align-self: center;
+        padding: 0.3em;
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+    display: none;
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        background: rgb(239,248,250);
+        background: linear-gradient(35deg, rgba(239,248,250,1) 0%, rgba(239,248,250,1) 35%, rgba(255,255,255,1) 100%);
+    }
+    .mobile-logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .header__nac{
+        width: 100%;
+    }
+    .logo>img{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .header__navigation{
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .carousel-indicators>li{
+        display: none;
+    }
+    .header__nav{
+        height: 3.3em;
+    }
+    .header__menu-items{
+        margin: 1rem -15%;
+    }
+    .header__nav-ul,.header__address{
+        display: none;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin: 9rem 0;
+        padding: 1rem;
+    }
+    .header__nav-li{
+        padding: 0 0.9rem;
+        font-size: 13px;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        border-radius: 0 0 30% 30%;
+    }
+
+    .header-carousel__b{
+        font-size: 28px;
+    }
+    .header-carousel__p{
+        line-height: 17px;
+        font-size: 12px;
+        width: 56%;
+    }
+    .header__kabrita-b,.header__kabrita-p{
+        font-size: 14px;
+    }
+    .slider__descriprion{
+    margin: 0 0 1em 0;
+    }
+    .slider__descriprion h3{
+    font-size: 30px;
+    }
+    .slider__descriprion p{
+        font-size: 14px;
+    }
+    .projects__h3,.actions__h3{
+        font-size: 30px;
+    }
+    .projects__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kabrita__storage {
+        width: 100%;
+        margin: 0.5em;
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+    .goods__online-to-buy2,.goods__online-to-buy3{
+        display: none;
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+        width: 100%;
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .logo>img{
+        width: 150px;
+    }
+    .header__menu-items{
+        margin: 1rem -9%;
+    }
+    .header__nav-li{
+        padding: 0 0.9rem;
+        font-size: 13px;
+    }
+    .header-carousel__b{
+        font-size: 21px;
+    }
+    .header-carousel__p{
+        line-height: 15px;
+        font-size: 10px;
+        width: 73%;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        border-radius: 0 0 20% 20%;
+        background-size: cover;
+    }
+    .slider__wrapper{
+        margin: 12% 0 0 0;
+    }
+    .kabrita__section-header{
+        margin: 0;
+    }
+    .header__kabrita{
+    font-size: 20px;
+        text-align: center;
+    }
+    .header__kabrita-b,.header__kabrita-p{
+        font-size: 12px;
+        width: 99%;
+        text-align: center;
+    }
+    .slider__descriprion{
+    margin: 0 0 1em 0 ;
+    }
+    .slider__descriprion p{
+        font-size: 13px;
+    }
+    .kabrita__main-slide{
+        margin: 0;
+    }
+    .kabrita__month{
+        display: flex;
+
+    }
+    .kabrita__slider-header{
+    font-size: 20px;
+    }
+    .kabrita__slider-p{
+        font-size: 14px;
+    }
+    .specprojects__h5{
+        text-wrap: nowrap;
+    }
+    .actions__block2 img{
+        width: 100%;
+    }
+    .recommendation-logos{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .recommendation-logo{
+        margin: 0 1em;
+        width: 70%;
+    }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+}
