@@ -1,3 +1,4 @@
+"use strict";
 const onBtn1 = document.getElementById('offline-on')
 const offBtn1 = document.getElementById('offline-off')
 const onBtn2 = document.getElementById('online-on')
