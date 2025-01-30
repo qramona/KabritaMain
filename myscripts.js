@@ -63,48 +63,78 @@ basket01.onclick = basket(basket01, basketAmount1)();
 let count = 1;
 let totalPrice = 0;
 //
-const plusbtn1 = document.getElementById('plus-btn1')
-const plusbtn2 = document.getElementById('plus-btn2')
-
+// const plusbtn1 = document.getElementById('plus-btn1')
+// const plusbtn2 = document.getElementById('plus-btn2')
 //
-const minusbtn1 = document.getElementById('minus-btn1')
-const minusbtn2 = document.getElementById('minus-btn2')
-
+// //
+// const minusbtn1 = document.getElementById('minus-btn1')
+// const minusbtn2 = document.getElementById('minus-btn2')
 //
-const countLabel1 = document.getElementById('countLabel1')
-const countLabel2 = document.getElementById('countLabel2')
+// //
+// const countLabel1 = document.getElementById('countLabel1')
+// const countLabel2 = document.getElementById('countLabel2')
 
 
 const circleActive = document.getElementById('circleActive')
 //
 
+const PlusButtons = document.querySelectorAll('.plus-btn');
+const MinusButtons = document.querySelectorAll('.minus-btn');
+const CountLabels = document.querySelectorAll('.btn-value');
 
-function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
-    return function(){
-    minusBtn.onclick = function () {
-        if (count > 1) {
-            count -= 1;
-            countLabel.innerHTML = count;
+console.log('PlusButtons', PlusButtons);
+console.log('MinusButtons', MinusButtons);
+
+PlusButtons.forEach((button, idx) => {
+    if (button.tagName.toLowerCase() !== 'img') {
+        button.onclick = function () {
+            count += 1;
+            CountLabels[idx].innerHTML = count;
             circleActive.innerHTML = count;
-        } else {
-            basketAmount.style.display = 'none'
-            basketNum.style.display = 'flex'
         }
     }
-        }
-}
-minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
-function valueBtn2(plusBtn,countLabel){
-    return function(){
-        plusBtn.onclick = function () {
-                count += 1;
-                countLabel.innerHTML = count;
-            circleActive.innerHTML = count;
+})
+
+MinusButtons.forEach((button) => {
+    if (button.tagName.toLowerCase() !== 'img') {
+        button.onclick = function () {
+            if (count > 1) {
+                count -= 1;
+                CountLabels[idx].innerHTML = count;
+                circleActive.innerHTML = count;
+            } else {
+                basketAmount.style.display = 'none'
+                basketNum.style.display = 'flex'
             }
+        }
     }
-}
-plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
-plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
+})
+
+// function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
+//     return function(){
+//     minusBtn.onclick = function () {
+//         if (count > 1) {
+//             count -= 1;
+//             countLabel.innerHTML = count;
+//             circleActive.innerHTML = count;
+//         } else {
+//             basketAmount.style.display = 'none'
+//             basketNum.style.display = 'flex'
+//         }
+//     }}
+// }
+// minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
+// function valueBtn2(plusBtn,countLabel){
+//     return function(){
+//         plusBtn.onclick = function () {
+//             count += 1;
+//             countLabel.innerHTML = count;
+//             circleActive.innerHTML = count;
+//         }
+//     }
+// }
+// plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
+// plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
 
 
 // НОРМАЛЬНЫЙ КОД ПОДЪЕХАЛ
