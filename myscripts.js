@@ -44,7 +44,6 @@ $(document).ready(function (){
 });
 const basket01 = document.getElementById('basket1')
 
-
 const basketAmount1 = document.getElementById('basket-amount1')
 
 //
@@ -60,63 +59,103 @@ function basket(basketId, basketAmountId) {
 basket01.onclick = basket(basket01, basketAmount1)();
 
 //
-let count = 1;
+let count = 0;
 let totalPrice = 0;
 //
-const plusbtn1 = document.getElementById('plus-btn1')
-const plusbtn2 = document.getElementById('plus-btn2')
-
+// const plusbtn1 = document.getElementById('plus-btn1')
+// const plusbtn2 = document.getElementById('plus-btn2')
 //
-const minusbtn1 = document.getElementById('minus-btn1')
-const minusbtn2 = document.getElementById('minus-btn2')
-
+// //
+// const minusbtn1 = document.getElementById('minus-btn1')
+// const minusbtn2 = document.getElementById('minus-btn2')
 //
-const countLabel1 = document.getElementById('countLabel1')
-const countLabel2 = document.getElementById('countLabel2')
+// //
+// const countLabel1 = document.getElementById('countLabel1')
+// const countLabel2 = document.getElementById('countLabel2')
 
 
 const circleActive = document.getElementById('circleActive')
 //
 
-
-function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
-    return function(){
-    minusBtn.onclick = function () {
-        if (count > 1) {
-            count -= 1;
-            countLabel.innerHTML = count;
-            circleActive.innerHTML = count;
-        } else {
-            basketAmount.style.display = 'none'
-            basketNum.style.display = 'flex'
-        }
-    }
-        }
-}
-minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
-function valueBtn2(plusBtn,countLabel){
-    return function(){
-        plusBtn.onclick = function () {
-                count += 1;
-                countLabel.innerHTML = count;
-            circleActive.innerHTML = count;
-            }
-    }
-}
-plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
-plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
-
+const PlusButtons = document.querySelectorAll('.plus-btn');
+const MinusButtons = document.querySelectorAll('.minus-btn');
+const CountLabels = document.querySelectorAll('.btn-value');
 
 // НОРМАЛЬНЫЙ КОД ПОДЪЕХАЛ
-let BasketsOn = document.querySelectorAll(".slider__basket");
-let BasketAmount = document.querySelectorAll(".slider__basket-amount");
+const BasketsOn = document.querySelectorAll(".slider__basket");
+const BasketAmount = document.querySelectorAll(".slider__basket-amount");
+
+const filteredButtons = (button) => {
+    return button.tagName.toLowerCase() !== 'img'
+}
+
+const PlusButtonsFiltered = Array.from(PlusButtons).filter(filteredButtons);
+const MinusButtonsFiltered = Array.from(MinusButtons).filter(filteredButtons);
+
+
+PlusButtonsFiltered.forEach((button, idx) => {
+    button.addEventListener('click',  () => {
+        let innerCount = Number(BasketAmount[idx].textContent);
+        console.log('innerCount', innerCount);
+        innerCount += 1;
+        CountLabels[idx].innerHTML = innerCount.toString();
+        circleActive.innerHTML = String(innerCount + count);
+    });
+})
+
+MinusButtonsFiltered.forEach((button, idx) => {
+    button.addEventListener('click',  () => {
+        let innerCount = Number(BasketAmount[idx].textContent)
+        if (count > 1 && innerCount > 1) {
+            innerCount -= 1;
+            CountLabels[idx].innerHTML = innerCount.toString();
+
+            count -= 1
+            circleActive.innerHTML = count;
+        } else {
+            BasketAmount[idx].style.display = 'none'
+            BasketsOn[idx].style.display = 'flex'
+            circleActive.innerHTML = count;
+        }
+    });
+})
+
+// function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
+//     return function(){
+//     minusBtn.onclick = function () {
+//         if (count > 1) {
+//             count -= 1;
+//             countLabel.innerHTML = count;
+//             circleActive.innerHTML = count;
+//         } else {
+//             basketAmount.style.display = 'none'
+//             basketNum.style.display = 'flex'
+//         }
+//     }}
+// }
+// minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
+// function valueBtn2(plusBtn,countLabel){
+//     return function(){
+//         plusBtn.onclick = function () {
+//             count += 1;
+//             countLabel.innerHTML = count;
+//             circleActive.innerHTML = count;
+//         }
+//     }
+// }
+// plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
+// plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
+
 BasketsOn.forEach(button => {
+    console.log('button', button);
     button.addEventListener('click', () => {
         button.style.display = "none";
         const targetBasketAmount = BasketAmount[Array.from(BasketsOn).indexOf(button)];
+        console.log('targetBasketAmount', targetBasketAmount)
 
         // Отображаем только найденный элемент
         targetBasketAmount.style.display = 'flex';
+        circleActive.innerHTML = Number(targetBasketAmount.textContent) + count;
     });
 });
 // filtration on the way of the simple code
