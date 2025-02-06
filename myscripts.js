@@ -109,31 +109,6 @@ MinusButtonsFiltered.forEach((button, idx) => {
     });
 })
 
-// function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
-//     return function(){
-//     minusBtn.onclick = function () {
-//         if (count > 1) {
-//             count -= 1;
-//             countLabel.innerHTML = count;
-//             circleActive.innerHTML = count;
-//         } else {
-//             basketAmount.style.display = 'none'
-//             basketNum.style.display = 'flex'
-//         }
-//     }}
-// }
-// minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
-// function valueBtn2(plusBtn,countLabel){
-//     return function(){
-//         plusBtn.onclick = function () {
-//             count += 1;
-//             countLabel.innerHTML = count;
-//             circleActive.innerHTML = count;
-//         }
-//     }
-// }
-// plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
-// plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
 
 BasketsOn.forEach(button => {
     console.log('button', button);
@@ -156,18 +131,13 @@ const KabritaSet = document.getElementById('Kabrita__Set')
 const KabritaBox = document.getElementById('Kabrita__Box')
 const KabritaPresent = document.getElementById('Kabrita__Present')
 
-filtrationSets.onclick = function(){
-    KabritaSet.style.display = 'flex'
-    KabritaBox.style.display = 'none'
-    KabritaPresent.style.display = 'none'
+
+
+function toggleDisplay(showElement, hideElements) {
+    hideElements.forEach(el => el.style.display = 'none');
+    showElement.style.display = 'flex';
 }
-filtrationBox.onclick = function (){
-    KabritaSet.style.display = 'none'
-    KabritaBox.style.display = 'flex'
-    KabritaPresent.style.display = 'none'
-}
-filtrationPresent.onclick = function (){
-    KabritaSet.style.display = 'none'
-    KabritaBox.style.display = 'none'
-    KabritaPresent.style.display = 'flex';
-}
+
+filtrationSets.onclick = () => toggleDisplay(KabritaSet, [KabritaBox, KabritaPresent]);
+filtrationBox.onclick = () => toggleDisplay(KabritaBox, [KabritaSet, KabritaPresent]);
+filtrationPresent.onclick = () => toggleDisplay(KabritaPresent, [KabritaSet, KabritaBox]);
