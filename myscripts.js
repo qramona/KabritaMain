@@ -169,5 +169,5 @@ filtrationBox.onclick = function (){
 filtrationPresent.onclick = function (){
     KabritaSet.style.display = 'none'
     KabritaBox.style.display = 'none'
-    KabritaPresent.style.display = 'flex'
+    KabritaPresent.style.display = 'flex';
 }
