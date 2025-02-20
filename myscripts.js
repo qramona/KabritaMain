@@ -1,25 +1,27 @@
 "use strict";
-$(document).ready(function (){
 
-    $('.burger-menu').click(function(){
+const burgerMenu = document.getElementById("burger-menu");
+const closeLogo = document.getElementById("close-logo");
+const menuItems = document.getElementById("menu-items");
+burgerMenu.addEventListener("click", function() {
 
-        $('.header__menu-items').css('display','flex');
-        $('.burger-menu').css('display','none');
-        $('.close-logo').css('display','flex');
-    })
-    $('#close-logo').click(function(){
-        $('#menu-items').css('display','none');
-        $('#close-logo').css('display','none');
-        $('#burger-menu').css('display','flex');
-    })
+    burgerMenu.style.display = "none";
+    closeLogo.style.display = "flex";
+    menuItems.style.display = "flex";
+});
+closeLogo.addEventListener("click",function (){
+    burgerMenu.style.display = "flex";
+    closeLogo.style.display = "none";
+    menuItems.style.display = "none";
+})
 
-    $('.carousel').carousel({
-            dots:true,
-            arrow:false,
-            time: 4,
-            transition: 1,
-        }
-    )
+$('.carousel').carousel({
+        dots:true,
+        arrow:false,
+        time: 4,
+        transition: 1,
+    }
+)
     $('.owl-carousel').owlCarousel({
         loop: true,
         arrow:true,
@@ -39,9 +41,9 @@ $(document).ready(function (){
                 items:3
             }
         }
-    })
+    });
 
-});
+
 const basket01 = document.getElementById('basket1')
 const basketAmount1 = document.getElementById('basket-amount1')
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="removed useless code" />
+    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="changed svg to png kabrita slider" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +59,7 @@
       <workItem from="1737467749852" duration="598000" />
       <workItem from="1738245590518" duration="599000" />
       <workItem from="1738634506846" duration="13299000" />
+      <workItem from="1739987404208" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="removed useless code">
       <created>1731378326784</created>
@@ -97,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738847279746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed svg to png kabrita slider">
+      <created>1739989192641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739989192641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed useless code" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed useless code" />
+    <MESSAGE value="changed svg to png kabrita slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed svg to png kabrita slider" />
   </component>
 </project>

@@ -87,13 +87,13 @@ input{
 
 }
 .header__first-slide{
-    background-image: url("../assets/header__carousel1.svg");
+    background-image: url("../assets/header-carousel/header__carousel1.svg");
 }
 .header__second-slide{
-    background-image: url("../assets/header__carousel2.svg");
+    background-image: url("../assets/header-carousel/header__carousel2.svg");
 }
 .header__third-slide{
-    background-image: url("../assets/header__carousel3.svg");
+    background-image: url("../assets/header-carousel/header__carousel3.svg");
 }
 .header__first-slide,.header__second-slide,.header__third-slide{
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ input{
     border-radius:30px;
 }
 .actions__slider1{
-    background-image: url("../assets/specproject2.svg");
+    background-image: url("../assets/productPicrutes/specproject2.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 300px;
@@ -280,7 +280,7 @@ input{
 .filtration-label input:checked ~.checkmark{
     background-color: #85C4E8;
     padding: 0.4rem;
-    background-image: url("../assets/bottle.svg");
+    background-image: url("../assets/icons/bottle.svg");
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: center;
@@ -500,7 +500,7 @@ transform: scale(1.1);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-image: url("../assets/specproject2.svg");
+    background-image: url("../assets/productPicrutes/specproject2.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
