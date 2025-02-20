@@ -133,13 +133,15 @@ const KabritaSet = document.getElementById('Kabrita__Set')
 const KabritaBox = document.getElementById('Kabrita__Box')
 const KabritaPresent = document.getElementById('Kabrita__Present')
 
-
-
 function toggleDisplay(showElement, hideElements) {
     hideElements.forEach(el => el.style.display = 'none');
     showElement.style.display = 'flex';
 }
-
 filtrationSets.onclick = () => toggleDisplay(KabritaSet, [KabritaBox, KabritaPresent]);
 filtrationBox.onclick = () => toggleDisplay(KabritaBox, [KabritaSet, KabritaPresent]);
 filtrationPresent.onclick = () => toggleDisplay(KabritaPresent, [KabritaSet, KabritaBox]);
+
+const currYear = document.getElementById("currentYear");
+let date = new Date()
+date = date.getFullYear()
+currYear.innerHTML = "© 2012—" + date
