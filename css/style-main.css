@@ -821,6 +821,7 @@ background: transparent;
 
     .header__first-slide, .header__second-slide, .header__third-slide {
         border-radius: 0 0 23% 23%;
+        height: 40dvh;
     }
 
     .slider__wrapper {

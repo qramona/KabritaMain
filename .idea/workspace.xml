@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="Removed all jQuery">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="css header carousel has been changed">
       <change beforePath="$PROJECT_DIR$/css/style-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <workItem from="1739987404208" duration="2117000" />
       <workItem from="1739989913433" duration="10533000" />
       <workItem from="1740161740713" duration="77000" />
-      <workItem from="1740162480197" duration="12958000" />
+      <workItem from="1740162480197" duration="13470000" />
     </task>
     <task id="LOCAL-00001" summary="removed useless code">
       <created>1731378326784</created>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740195767678</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="css header carousel has been changed">
+      <created>1740197725035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740197725035</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +166,7 @@
     <MESSAGE value="changed svg to png icons" />
     <MESSAGE value="date has been changed to JavaScript" />
     <MESSAGE value="Removed all jQuery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed all jQuery" />
+    <MESSAGE value="css header carousel has been changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="css header carousel has been changed" />
   </component>
 </project>
