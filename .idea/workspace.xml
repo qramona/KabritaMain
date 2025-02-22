@@ -75,7 +75,7 @@
       <workItem from="1739987404208" duration="2117000" />
       <workItem from="1739989913433" duration="10533000" />
       <workItem from="1740161740713" duration="77000" />
-      <workItem from="1740162480197" duration="13470000" />
+      <workItem from="1740162480197" duration="14144000" />
     </task>
     <task id="LOCAL-00001" summary="removed useless code">
       <created>1731378326784</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740197725035</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="css header carousel has been changed">
+      <created>1740198165887</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740198165887</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

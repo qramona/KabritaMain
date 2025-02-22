@@ -83,7 +83,7 @@ input{
 
 }
 .slider__wrapper{
-
+    padding: 10dvh 5dvh;
 }
 .header__first-slide{
     background-image: url("../assets/header-carousel/header__carousel1.svg");
