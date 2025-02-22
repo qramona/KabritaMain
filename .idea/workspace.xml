@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="changed svg to png kabrita slider" />
+    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="date has been changed to JavaScript">
+      <change afterPath="$PROJECT_DIR$/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/myscripts.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/appsLogo" />
+      <recent name="$PROJECT_DIR$/assets/productPicrutes" />
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/assets/header-carousel" />
+      <recent name="$PROJECT_DIR$/assets/KabritaApps" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +77,9 @@
       <workItem from="1738245590518" duration="599000" />
       <workItem from="1738634506846" duration="13299000" />
       <workItem from="1739987404208" duration="2117000" />
+      <workItem from="1739989913433" duration="10533000" />
+      <workItem from="1740161740713" duration="77000" />
+      <workItem from="1740162480197" duration="11865000" />
     </task>
     <task id="LOCAL-00001" summary="removed useless code">
       <created>1731378326784</created>
@@ -110,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1739989192641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed svg to png icons">
+      <created>1740049556993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740049556993</updated>
+    </task>
+    <task id="LOCAL-00009" summary="date has been changed to JavaScript">
+      <created>1740058299727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740058299727</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed useless code" />
     <MESSAGE value="changed svg to png kabrita slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed svg to png kabrita slider" />
+    <MESSAGE value="changed svg to png icons" />
+    <MESSAGE value="date has been changed to JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="date has been changed to JavaScript" />
   </component>
 </project>

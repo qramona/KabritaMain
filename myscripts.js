@@ -15,34 +15,6 @@ closeLogo.addEventListener("click",function (){
     menuItems.style.display = "none";
 })
 
-$('.carousel').carousel({
-        dots:true,
-        arrow:false,
-        time: 4,
-        transition: 1,
-    }
-)
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        arrow:true,
-        margin: 10,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            992: {
-                items: 2
-            },
-            1200:{
-                items:3
-            }
-        }
-    });
-
 
 const basket01 = document.getElementById('basket1')
 const basketAmount1 = document.getElementById('basket-amount1')
