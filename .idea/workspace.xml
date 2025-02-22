@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="css header carousel has been changed">
-      <change beforePath="$PROJECT_DIR$/css/style-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-main.css" afterDir="false" />
-    </list>
+    <list default="true" id="2cc9c18c-ec28-4978-b1b9-7cc82a944c94" name="Changes" comment="height of header carousel has been changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <workItem from="1739987404208" duration="2117000" />
       <workItem from="1739989913433" duration="10533000" />
       <workItem from="1740161740713" duration="77000" />
-      <workItem from="1740162480197" duration="14144000" />
+      <workItem from="1740162480197" duration="14460000" />
     </task>
     <task id="LOCAL-00001" summary="removed useless code">
       <created>1731378326784</created>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740198165887</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="height of header carousel has been changed">
+      <created>1740198945294</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740198945294</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +179,7 @@
     <MESSAGE value="date has been changed to JavaScript" />
     <MESSAGE value="Removed all jQuery" />
     <MESSAGE value="css header carousel has been changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="css header carousel has been changed" />
+    <MESSAGE value="height of header carousel has been changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="height of header carousel has been changed" />
   </component>
 </project>
