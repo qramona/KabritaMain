@@ -97,7 +97,7 @@ input{
 .header__first-slide,.header__second-slide,.header__third-slide{
     background-repeat: no-repeat;
     background-position: center;
-    height: 20dvh;
+    height: 40dvh;
     width: -webkit-fill-available;
     background-size: cover;
     border-radius: 0 0 30% 30%;
@@ -1128,6 +1128,7 @@ background: transparent;
         padding: 0 1rem;
     }
     .header__first-slide,.header__second-slide,.header__third-slide{
+        height: 45dvh;
     border-radius: 0 0 25% 25%;
     }
     .slider__wrapper{
